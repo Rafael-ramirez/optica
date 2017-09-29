@@ -1,0 +1,193 @@
+body{
+  font-family: verdana;
+  background-image: url("/assets/img/fondolentes.png");
+}
+
+.titulos-pdf{
+  text-align: center;
+}
+
+.logo-pdf{
+  margin-top: -80px;
+}
+
+.informacion-general{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 13px;
+}
+
+.try{
+  font-weight: bold;
+}
+.texto-izquierda{
+  text-align: left;
+}
+
+.texto-centro{
+  text-align: center;
+}
+
+.texto-derecha{
+  text-align: right;
+}
+
+.table-totales, td.td-pdf, th.th-total {
+    border: 1px solid black;
+}
+
+.table-totales, td.td-pdf-graf, th.th-total-graf {
+  border: 1px solid black;
+}
+
+.table-totales{
+  border-collapse: collapse;
+  margin-right: 180px;
+}
+
+.th-pdf{
+  background: #D8D8D8;
+  text-align: center;
+}
+
+.th-total{
+  background: #D8D8D8;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+td-pdf{
+  padding: 5px;
+}
+.th-total-graf{
+  background: #D8D8D8;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+td-pdf-graf{
+  padding: 5px;
+}
+
+table tr td.td-pdf
+{
+ width: 120px;
+ height: 30px;
+  text-align: center;
+
+}
+table tr td.td-pdf-graf
+{
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  padding: 5px;
+
+}
+table tr td.td-info
+{
+  width: 500px;
+  height: 30px;
+  text-align: left;
+  padding: 15px;
+  font-size: 22px;
+}
+
+.tabla-info{
+  border: none !important;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.th-resultados{
+  background: #D8D8D8;
+  text-align: center;
+  height: 52px;
+}
+
+table tr td.td-resultados
+{
+  text-align: center;
+  height: 31px !important;
+}
+/*Pruebas*/
+
+#contenedor {
+
+}
+
+#tabla1 {
+float: left;
+width: 40%;
+/*margin-top: -5px !important;*/
+}
+
+#tabla1 table {
+text-align: center;
+}
+
+#tabla1 table tr td {
+width: 30%;
+}
+
+#tabla2 {
+
+float: left;
+width: 50%;
+margin-top: -5px !important;
+}
+
+#tabla2 table {
+text-align: center;
+}
+
+#tabla2 table tr td {
+width: 50%;
+}
+
+.totales{
+  margin-top: 30px;
+}
+
+.series{
+  margin-bottom: 30px;
+}
+#contenedor-tabla {
+
+}
+
+
+/*GRAFICA*/
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+body {
+  background: #999;
+}
+
+h2 {
+  margin: 0 0 20px 0;
+  padding: 0 0 5px 0;
+  border-bottom: 1px solid #999;
+  font-family: sans-serif;
+  font-weight: normal;
+  color: #333;
+}
+
+.container {
+  margin-top: -150px;
+
+}
+
+/* Vertical */
+
+.vertical .progress-bar {
+  float: left;
+  width: 40px;
+  margin: 10px;
+}
